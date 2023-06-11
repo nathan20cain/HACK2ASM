@@ -1,3 +1,4 @@
+# Last updated -> 06-11-2023
 
 def isEmptyLine(line):  # removes empty line
     return line == ''

@@ -1,5 +1,6 @@
-import re # for multi splitting
+# Last updated -> 06-11-2023
 
+import re # for multi splitting
 
 def isLabel(c):  # checks if label if it has ()
     if c == "":
@@ -12,7 +13,6 @@ def isLabel(c):  # checks if label if it has ()
 
 def positiveInteger(d): # checks if d is a positive int
     return d.isdigit()
-
 
 def validSymbolChars(b, symbolTable): #checks if b is in the symbol tble
     return b in symbolTable
@@ -58,7 +58,6 @@ def isInstruction(clean):   # checks if it either a c or a instruction
             return False
         if let == '=':
             return True
-
 
 def aInstruction(line):   # logic for A instruction
     dropAt = line[1:]
